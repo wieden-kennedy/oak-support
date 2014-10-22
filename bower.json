@@ -1,6 +1,6 @@
 {
   "name": "oak-support",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/wieden-kennedy/oak-support",
   "authors": [
     "Maxwell Folley"
@@ -21,10 +21,11 @@
     "README.md",
     "node_modules",
     "bower_components",
+    "bower.json",
     "src",
     "spec"
   ],
   "dependencies": {
-    "oak": "~0.0.21"
+    "oak": "~0.0.22"
   }
 }
