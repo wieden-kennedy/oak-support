@@ -1,0 +1,30 @@
+{
+  "name": "oak-support",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wieden-kennedy/oak-support",
+  "authors": [
+    "Maxwell Folley"
+  ],
+  "description": "",
+  "main": "dist/oak-support.min.js",
+  "keywords": [
+    "oak",
+    "framework",
+    "support",
+    "collection"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "gulpfile.js",
+    "package.json",
+    "README.md",
+    "node_modules",
+    "bower_components",
+    "src",
+    "spec"
+  ],
+  "dependencies": {
+    "oak": "~0.0.21"
+  }
+}
