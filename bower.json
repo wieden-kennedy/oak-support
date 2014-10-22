@@ -1,11 +1,11 @@
 {
   "name": "oak-support",
-  "version": "0.0.2",
+  "version": "0.0.31",
   "homepage": "https://github.com/wieden-kennedy/oak-support",
   "authors": [
     "Maxwell Folley"
   ],
-  "description": "",
+  "description": "HTML5 and CSS feature detection package for the Oak javascript suite.",
   "main": "dist/oak-support.min.js",
   "keywords": [
     "oak",

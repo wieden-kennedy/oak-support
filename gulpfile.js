@@ -9,6 +9,11 @@ gulp.task('dist', function () {
     .pipe(uglify())
     .pipe(concat('oak-support.min.js'))
     .pipe(gulp.dest('dist/'));
+
+  var stream = gulp.src('src/*.js')
+    .pipe(concat('oak-support.js'))
+    .pipe(gulp.dest('dist/'));
+
   return stream;
 });
 
